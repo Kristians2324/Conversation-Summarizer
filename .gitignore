@@ -1,0 +1,21 @@
+# Credentials and tokens
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Audio and transcripts
+*_transcript.txt
+*_summary.txt
+*.mp3
+*.wav
+*.m4a
+
+# OS files
+.DS_Store
+Thumbs.db
