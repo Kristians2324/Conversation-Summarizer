@@ -21,4 +21,4 @@ def transcribe_audio(file_path):
         
         return result['text'].strip()
     except Exception as e:
-        return f"Error during transcription: {e}\n(Make sure ffmpeg is installed and in your PATH)"
+        return f"Error during transcription: {e}"
