@@ -2,7 +2,7 @@ import requests
 import re
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "deepseek-r1:14b"
+OLLAMA_MODEL = "deepseek-r1:7b"
 
 def summarize_text(text):
     """Uses Ollama (DeepSeek) to summarize the provided text."""
